@@ -26,8 +26,8 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-6 tracking-wide text-gray-800">ĐỊA CHỈ</h4>
             <div className="space-y-3 text-gray-700">
               <p className="font-medium">HOTEL Beach</p>
-              <p>319 C16 Lý Thường Kiệt</p>
-              <p>Quận 11, TP. HCM</p>
+              <p>Felchtaer Str. 2-4, 99974 Mühlhausen/Thüringen</p>
+              <p>Germanyt</p>
             </div>
           </div>
 

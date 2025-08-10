@@ -10,6 +10,11 @@ import Rooms from './components/Rooms';
 import Footer from './components/Footer';
 import RoomsPage from './pages/RoomsPage';
 import RoomDetailPage from './pages/RoomDetailPage';
+import NewsPage from './pages/NewsPage';
+import NewsDetailPage from './pages/NewsDetailPage';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
+
 
 function App() {
   const [language, setLanguage] = useState('de');
@@ -35,6 +40,18 @@ function App() {
           } />
           <Route path="/rooms/:slug" element={
             <RoomDetailPage language={language} setLanguage={setLanguage} />
+          } />
+          <Route path="/news" element={
+            <NewsPage language={language} setLanguage={setLanguage} />
+          } />
+          <Route path="/news/:slug" element={
+            <NewsDetailPage language={language} setLanguage={setLanguage} />
+          } />
+          <Route path="/about" element={
+            <AboutPage language={language} setLanguage={setLanguage} />
+          } />
+        <Route path="/contact" element={
+            <ContactPage language={language} setLanguage={setLanguage} />
           } />
         </Routes>
       </div>

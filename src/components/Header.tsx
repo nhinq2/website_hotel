@@ -139,7 +139,7 @@ const Header = ({ language, setLanguage }: { language: string; setLanguage: (lan
 
             <nav className="flex flex-col pt-20 px-8 space-y-4 text-gray-900">
               <a 
-                href="#home" 
+                href="/" 
                 className="text-lg font-normal hover:opacity-70 transition-all duration-300 tracking-wide border-b border-gray-200 pb-3"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -191,7 +191,7 @@ const Header = ({ language, setLanguage }: { language: string; setLanguage: (lan
               </div>
               
               <a 
-                href="#news" 
+                href="/news" 
                 className="text-lg font-normal hover:opacity-70 transition-all duration-300 tracking-wide border-b border-gray-200 pb-3"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -199,7 +199,7 @@ const Header = ({ language, setLanguage }: { language: string; setLanguage: (lan
               </a>
               
               <a 
-                href="#about" 
+                href="/about" 
                 className="text-lg font-normal hover:opacity-70 transition-all duration-300 tracking-wide border-b border-gray-200 pb-3"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -207,7 +207,7 @@ const Header = ({ language, setLanguage }: { language: string; setLanguage: (lan
               </a>
               
               <a 
-                href="#contact" 
+                href="/contact" 
                 className="text-lg font-normal hover:opacity-70 transition-all duration-300 tracking-wide border-b border-gray-200 pb-3"
                 onClick={() => setIsMenuOpen(false)}
               >
