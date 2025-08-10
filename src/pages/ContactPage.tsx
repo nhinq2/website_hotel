@@ -27,11 +27,11 @@ const ContactPage: React.FC<ContactPageProps> = ({ language, setLanguage }) => {
         submitButton: "GỬI LIÊN HỆ"
       },
       contactInfo: {
-        address: "319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM",
-        phone: "076 922 0162",
-        email: "demonhunterg@gmail.com",
-        website: "mon@mona.media",
-        social: "demonhunterp"
+        address: "Felchtaer Str. 2-4, 99974 Mühlhausen/Thüringen, Germany",
+        phone: "091123 1234",
+        email: "booking@luxury.hotel",
+        website: "luxury.hotel",
+        social: "luxury.hotel"
       }
     },
     en: {
@@ -45,11 +45,11 @@ const ContactPage: React.FC<ContactPageProps> = ({ language, setLanguage }) => {
         submitButton: "SEND MESSAGE"
       },
       contactInfo: {
-        address: "319 C16 Ly Thuong Kiet, Ward 15, District 11, Ho Chi Minh City",
-        phone: "076 922 0162",
-        email: "demonhunterg@gmail.com",
-        website: "mon@mona.media",
-        social: "demonhunterp"
+        address: "Felchtaer Str. 2-4, 99974 Mühlhausen/Thüringen, Germany",
+        phone: "091123 1234",
+        email: "booking@luxury.hotel",
+        website: "luxury.hotel",
+        social: "luxury.hotel"
       }
     }
   };
@@ -73,7 +73,7 @@ const ContactPage: React.FC<ContactPageProps> = ({ language, setLanguage }) => {
       <Header language={language} setLanguage={setLanguage} />
       
       {/* Hero Section */}
-      <section className="relative h-96 bg-gray-800 flex items-center justify-center">
+      <section className="relative h-56 bg-gray-800 flex items-center justify-center">
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-30"
           style={{
@@ -94,7 +94,7 @@ const ContactPage: React.FC<ContactPageProps> = ({ language, setLanguage }) => {
             <div className="space-y-6">
               <div className="bg-gray-100 h-96 rounded-lg overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.6306852350596!2d106.65017731533414!3d10.762622192330687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ec3c161a3fb%3A0xef77cd47a1cc691e!2sLy%20Thuong%20Kiet%20St%2C%20Ward%2015%2C%20District%2011%2C%20Ho%20Chi%20Minh%20City%2C%20Vietnam!5e0!3m2!1sen!2s!4v1635789012345!5m2!1sen!2s"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d39994.010790525004!2d10.3941945!3d51.2075488!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a492afaa1b1725%3A0xb6b9f848b97de5ff!2sBrauhaus%20zum%20L%C3%B6wen!5e0!3m2!1sen!2s!4v1754805064912!5m2!1sen!2s"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

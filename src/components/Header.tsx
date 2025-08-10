@@ -57,10 +57,10 @@ const Header = ({ language, setLanguage }: { language: string; setLanguage: (lan
   };
 
   return (
-    <header className={`${isHomePage ? 'absolute top-10' : 'relative'} left-0 right-0 z-50 transition-all duration-500 ${
-      isScrolled || !isHomePage ? 'bg-white/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
+    <header className={`${isHomePage ? 'absolute top-2' : 'relative'} left-0 right-0 z-50 transition-all duration-500 ${
+      isScrolled || !isHomePage ? 'bg-white backdrop-blur-md shadow-lg' : 'bg-transparent'
     }`}>
-      <div className="container mx-auto px-6 py-4">
+      <div className="container mx-auto px-6 py-12">
         <div className="flex items-center justify-between">
           {/* Mobile Menu Button */}
           <button 
@@ -118,7 +118,7 @@ const Header = ({ language, setLanguage }: { language: string; setLanguage: (lan
         <div className={`fixed top-0 left-0 h-full w-80 bg-white z-40 transform transition-transform duration-500 ${
           isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
         }`}>
-          <div className={`transform transition-transform duration-500 ${
+          <div className={`transform transition-transform duration-500 bg-white ${
             isMenuOpen ? 'translate-x-0' : '-translate-x-full'
           }`}>
             {/* Search Bar */}
@@ -139,7 +139,7 @@ const Header = ({ language, setLanguage }: { language: string; setLanguage: (lan
 
             <nav className="flex flex-col pt-20 px-8 space-y-4 text-gray-900">
               <a 
-                href="#home" 
+                href="/" 
                 className="text-lg font-normal hover:opacity-70 transition-all duration-300 tracking-wide border-b border-gray-200 pb-3"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -191,7 +191,7 @@ const Header = ({ language, setLanguage }: { language: string; setLanguage: (lan
               </div>
               
               <a 
-                href="#news" 
+                href="/news" 
                 className="text-lg font-normal hover:opacity-70 transition-all duration-300 tracking-wide border-b border-gray-200 pb-3"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -199,7 +199,7 @@ const Header = ({ language, setLanguage }: { language: string; setLanguage: (lan
               </a>
               
               <a 
-                href="#about" 
+                href="/about" 
                 className="text-lg font-normal hover:opacity-70 transition-all duration-300 tracking-wide border-b border-gray-200 pb-3"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -207,7 +207,7 @@ const Header = ({ language, setLanguage }: { language: string; setLanguage: (lan
               </a>
               
               <a 
-                href="#contact" 
+                href="/contact" 
                 className="text-lg font-normal hover:opacity-70 transition-all duration-300 tracking-wide border-b border-gray-200 pb-3"
                 onClick={() => setIsMenuOpen(false)}
               >
