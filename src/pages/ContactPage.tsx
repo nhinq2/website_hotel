@@ -73,7 +73,7 @@ const ContactPage: React.FC<ContactPageProps> = ({ language, setLanguage }) => {
       <Header language={language} setLanguage={setLanguage} />
       
       {/* Hero Section */}
-      <section className="relative h-96 bg-gray-800 flex items-center justify-center">
+      <section className="relative h-56 bg-gray-800 flex items-center justify-center">
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-30"
           style={{
